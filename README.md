@@ -14,4 +14,10 @@ Projekt został podzielony na dwie warstwy, które zostaną wykonane w dwóch r�
 
 ## Spis treści
 
+1.  E-learning w nauczaniu języków obcych
+2.  Projekt aplikacji i analiza potrzeb
+3.  Opis wybranych technologii i rozwiązań
+4.  Szczegóły implementacji
+5.  Podsumowanie
+
 ## Bibliografia
