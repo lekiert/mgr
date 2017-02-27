@@ -14,10 +14,20 @@ Projekt został podzielony na dwie warstwy, które zostaną wykonane w dwóch r�
 
 ## Spis treści
 
-1.  E-learning w nauczaniu języków obcych
-2.  Projekt aplikacji i analiza potrzeb
-3.  Opis wybranych technologii i rozwiązań
-4.  Szczegóły implementacji
-5.  Podsumowanie
+1.  Wstęp
+2.  E-learning w nauczaniu języków obcych
+3.  Projekt aplikacji i analiza potrzeb
+4.  Opis wybranych technologii i rozwiązań
+5.  Szczegóły implementacji
+6.  Podsumowanie
 
-## Bibliografia
+** TODO: rozwinac punkty **
+
+## Bibliografia i linki
+
+"JSON API By Example", Adolfo Builes. https://leanpub.com/json-api-by-example
+"ng-book2", N. Murray, F. Coury, A. Lerner, C. Taborda. https://www.ng-book.com/2/
+"API on Rails", Abraham Kuri Vargas, http://apionrails.icalialabs.com/
+http://jsonapi-resources.com/
+
+** TODO: czy uwzgledniac tu linki do dokumentacji kazdej biblioteki **
