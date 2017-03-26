@@ -6,11 +6,15 @@ elearning, rails, angular2, jsonapi
 
 ## Streszczenie
 
-Celem niniejszej pracy jest stworzenie aplikacji, która będzie mogła pełnić funkcję pomocniczą podczas nauczania języków obcych. Każdy zainteresowany podmiot będzie miał możliwość uruchomienia swojej instancji oraz wypełnienia jej własną treścią, dzięki czemu uczniowie będą mogli w dogodnym dla siebie miejscu i czasie rozwiązywać testy sprawdzające ich postępy, a osoby prowadzące kurs otrzymają wgląd do efektów pracy swoich podopiecznych.
+Motywacją dla powstania pracy była chęć poznania wydanej wersji frameworka Angular 2 oraz wypróbowania dedykowanych dla niego narzędzi wspomagających proces tworzenia aplikacji. W ramach projektu stworzono e-learningową, składającą się z dwóch części: klienta opartego na frameworku Angular 2 oraz serwera wykonanego przy użyciu Ruby on Rails 5. Jako bazy danych użyto PostgreSQL.
 
-W części teoretycznej zostaną opisane główne założenia przyjęte podczas projektowania aplikacji, wraz z analizą potrzeb użytkowników. Opisane będzie przyjęte podejście do rozwiązań konkretnych problemów z nimi związanych, możliwości aplikacji, takie jak: uprawnienia kont, typy ćwiczeń, metody kontroli postępów, jak również perspektywy dalszej rozbudowy o kolejne funkcje. 
+Projekt został stworzony z myślą o tym, aby służyć jako narzędzie dla szkół językowych i innych podmiotów zainteresowanych wykorzystywaniem aplikacji WWW w procesie nauczania. Każda taka jednostka będzie miała możliwość uruchomienia własnej instancji oraz wypełnienia jej treścią. Przygotowano kilka szablonów ćwiczeń, które są grupowane w zestawy testowe. Użytkownicy (uczniowie) mają przypisane do swoich kont kursy składające się takich zestawów. Wyniki rozwiązanych testów są zapamiętywane, dzięki czemu istnieje możliwość śledzenia postępów w nauce.
 
-Projekt został podzielony na dwie warstwy, które zostaną wykonane w dwóch różnych technologiach. Użytkownicy aplikacji będą korzystali z frontendowego klienta stworzonego we frameworku Angular 2, którzy będzie komunikował się z API obsługiwanego przez Ruby on Rails 5. Standardem przyjętym w interakcji jest specyfikacja JSON API. Wymienione technologie zostaną w niniejszej pracy opisane, przedstawione będą zalety ich wykorzystania oraz szczegóły implementacji. 
+W części teoretycznej zostały opisane główne założenia przyjęte podczas projektowania aplikacji, wraz z analizą potrzeb użytkowników. Opisano typy kont: administratora, kierownika, nauczyciela, ucznia. Przedstawiono możliwości przypisane każdemu rodzajowi konta. W dalszej części zaprezentowano diagramy obrazujące strukturę bazy danych.
+
+W szczegółach implementacyjnych przedstawiono architekturę i wykorzystane technologie każdej z warstw aplikacji. Opisano biblioteki i narzędzia wspomagające proces wytwarzania aplikacji, umieszczono diagramy klas. Następnie poruszono problematykę testowania aplikacji. Przedstawiono scenariusze testów funkcjonalnych oraz opisano wybrane testy jednostkowe. Uwagę poświęcono również testom manualnym. W ostatniej części podsumowano rezultaty testów.
+
+
 
 ## Spis treści
 
@@ -32,6 +36,7 @@ Projekt został podzielony na dwie warstwy, które zostaną wykonane w dwóch r�
    1. Scenariusze
       1. Testy jednostkowe
       1. Testy funkcjonalne
+      1. Testy manualne
    1. Rezultaty
 1. Podsumowanie
 
