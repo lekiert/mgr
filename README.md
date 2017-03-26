@@ -2,7 +2,7 @@
 
 ## Słowa kluczowe
 
-elearning, rails, angular2, jsonapi
+e-learning, Rails wersja 5, Angular wersja 2, JSONAPI
 
 ## Streszczenie
 
@@ -13,7 +13,6 @@ Projekt został stworzony z myślą o tym, aby służyć jako narzędzie dla szk
 W części teoretycznej zostały opisane główne założenia przyjęte podczas projektowania aplikacji, wraz z analizą potrzeb użytkowników. Opisano typy kont: administratora, kierownika, nauczyciela, ucznia. Przedstawiono możliwości przypisane każdemu rodzajowi konta. W dalszej części zaprezentowano diagramy obrazujące strukturę bazy danych.
 
 W szczegółach implementacyjnych przedstawiono architekturę i wykorzystane technologie każdej z warstw aplikacji. Opisano biblioteki i narzędzia wspomagające proces wytwarzania aplikacji, umieszczono diagramy klas. Następnie poruszono problematykę testowania aplikacji. Przedstawiono scenariusze testów funkcjonalnych oraz opisano wybrane testy jednostkowe. Uwagę poświęcono również testom manualnym. W ostatniej części podsumowano rezultaty testów.
-
 
 
 ## Spis treści
@@ -42,9 +41,9 @@ W szczegółach implementacyjnych przedstawiono architekturę i wykorzystane tec
 
 ## Bibliografia i linki
 
-* "REST API Design Rulebook", M. Masse, wyd. O'Reilly Media.
-* "TypeScript Essentials", Ch. Nance, wyd. Packt Publishing.
-* "JSON API By Example", A. Builes. https://leanpub.com/json-api-by-example
-* "ng-book2", N. Murray, F. Coury, A. Lerner, C. Taborda. https://www.ng-book.com/2/
+* *REST API Design Rulebook*, M. Masse, wyd. O'Reilly Media.
+* „TypeScript Essentials”, Ch. Nance, wyd. Packt Publishing.
+* A. Builes. „JSON API By Example”, https://leanpub.com/json-api-by-example
+* N. Murray, F. Coury, A. Lerner, C. Taborda., "ng-book2" https://www.ng-book.com/2/
 * "API on Rails", Abraham Kuri Vargas, http://apionrails.icalialabs.com/
 * http://jsonapi-resources.com/
