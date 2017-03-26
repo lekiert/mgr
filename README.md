@@ -40,8 +40,6 @@ W szczegółach implementacyjnych przedstawiono architekturę i wykorzystane tec
    1. Rezultaty
 1. Podsumowanie
 
-** TODO: rozwinac punkty **
-
 ## Bibliografia i linki
 
 * "REST API Design Rulebook", M. Masse, wyd. O'Reilly Media.
