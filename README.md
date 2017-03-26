@@ -44,7 +44,9 @@ W szczegółach implementacyjnych przedstawiono architekturę i wykorzystane tec
 
 ## Bibliografia i linki
 
-* "JSON API By Example", Adolfo Builes. https://leanpub.com/json-api-by-example
+* "REST API Design Rulebook", M. Masse, wyd. O'Reilly Media.
+* "TypeScript Essentials", Ch. Nance, wyd. Packt Publishing.
+* "JSON API By Example", A. Builes. https://leanpub.com/json-api-by-example
 * "ng-book2", N. Murray, F. Coury, A. Lerner, C. Taborda. https://www.ng-book.com/2/
 * "API on Rails", Abraham Kuri Vargas, http://apionrails.icalialabs.com/
 * http://jsonapi-resources.com/
