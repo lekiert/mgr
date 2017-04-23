@@ -2,32 +2,48 @@
 
 ## Słowa kluczowe
 
-elearning, rails, angular2, jsonapi
+e-learning, Rails wersja 5, Angular wersja 2, JSONAPI
 
-## Wstęp
+## Streszczenie
 
-W trakcie nauki języków obcych niezwykle pomocne są narzędzia multimedialne, które przyspieszają proces przyswajania umiejętności lingwistycznych. Dynamicznie rozwijające się technologie frontendowe sprzyjają szybkiemu tworzeniu nowych rozwiązań wykorzystujących treści audiowizualne. Celem niniejszej pracy jest stworzenie aplikacji, która będzie mogła pełnić funkcję pomocniczą podczas nauczania języków obcych. Każdy zainteresowany podmiot będzie miał możliwość uruchomienia swojej instancji oraz wypełnienia jej własną treścią, dzięki czemu uczniowie będą mogli w dogodnym dla siebie miejscu i czasie rozwiązywać testy sprawdzające ich postępy, a osoby prowadzące kurs otrzymają wgląd do efektów pracy swoich podopiecznych.
+Motywacją dla powstania pracy była chęć poznania wydanej wersji frameworka Angular 2 oraz wypróbowania dedykowanych dla niego narzędzi wspomagających proces tworzenia aplikacji. W ramach projektu stworzono e-learningową, składającą się z dwóch części: klienta opartego na frameworku Angular 2 oraz serwera wykonanego przy użyciu Ruby on Rails 5. Jako bazy danych użyto PostgreSQL.
 
-W części teoretycznej zostaną opisane główne założenia przyjęte podczas projektowania aplikacji, wraz z analizą potrzeb użytkowników. Opisane będzie przyjęte podejście do rozwiązań konkretnych problemów z nimi związanych, możliwości aplikacji, takie jak: uprawnienia kont, typy ćwiczeń, metody kontroli postępów, jak również perspektywy dalszej rozbudowy o kolejne funkcje. 
+Projekt został stworzony z myślą o tym, aby służyć jako narzędzie dla szkół językowych i innych podmiotów zainteresowanych wykorzystywaniem aplikacji WWW w procesie nauczania. Każda taka jednostka będzie miała możliwość uruchomienia własnej instancji oraz wypełnienia jej treścią. Przygotowano kilka szablonów ćwiczeń, które są grupowane w zestawy testowe. Użytkownicy (uczniowie) mają przypisane do swoich kont kursy składające się takich zestawów. Wyniki rozwiązanych testów są zapamiętywane, dzięki czemu istnieje możliwość śledzenia postępów w nauce.
 
-Projekt został podzielony na dwie warstwy, które zostaną wykonane w dwóch różnych technologiach. Użytkownicy aplikacji będą korzystali z frontendowego klienta stworzonego we frameworku Angular 2, którzy będzie komunikował się z API obsługiwanego przez Ruby on Rails 5. Standardem przyjętym w interakcji jest specyfikacja JSON API. Wymienione technologie zostaną w niniejszej pracy opisane, przedstawione będą zalety ich wykorzystania oraz szczegóły implementacji. 
+W części teoretycznej zostały opisane główne założenia przyjęte podczas projektowania aplikacji, wraz z analizą potrzeb użytkowników. Opisano typy kont: administratora, kierownika, nauczyciela, ucznia. Przedstawiono możliwości przypisane każdemu rodzajowi konta. W dalszej części zaprezentowano diagramy obrazujące strukturę bazy danych.
+
+W szczegółach implementacyjnych przedstawiono architekturę i wykorzystane technologie każdej z warstw aplikacji. Opisano biblioteki i narzędzia wspomagające proces wytwarzania aplikacji, umieszczono diagramy klas. Następnie poruszono problematykę testowania aplikacji. Przedstawiono scenariusze testów funkcjonalnych oraz opisano wybrane testy jednostkowe. Uwagę poświęcono również testom manualnym. W ostatniej części podsumowano rezultaty testów.
+
 
 ## Spis treści
 
-1.  Wstęp
-2.  E-learning w nauczaniu języków obcych
-3.  Projekt aplikacji i analiza potrzeb
-4.  Opis wybranych technologii i rozwiązań
-5.  Szczegóły implementacji
-6.  Podsumowanie
-
-** TODO: rozwinac punkty **
+1. Wstęp
+1. Projekt aplikacji i analiza potrzeb
+   1. Wymagania aplikacji
+   1. Użytkownicy
+   1. Model danych
+1. Szczegóły implementacji
+   1. API
+      1. Architektura
+      1. Użyte biblioteki frameworka Ruby on Rails 5
+      1. Diagramy klas
+   1. Aplikacja kliencka
+      1. Architektura
+      1. Użyte biblioteki i narzędzia frameworka Angular 2
+      1. Diagramy klas
+1. Testy automatyczne
+   1. Scenariusze
+      1. Testy jednostkowe
+      1. Testy funkcjonalne
+      1. Testy manualne
+   1. Rezultaty
+1. Podsumowanie
 
 ## Bibliografia i linki
 
-"JSON API By Example", Adolfo Builes. https://leanpub.com/json-api-by-example
-"ng-book2", N. Murray, F. Coury, A. Lerner, C. Taborda. https://www.ng-book.com/2/
-"API on Rails", Abraham Kuri Vargas, http://apionrails.icalialabs.com/
-http://jsonapi-resources.com/
-
-** TODO: czy uwzgledniac tu linki do dokumentacji kazdej biblioteki **
+* *REST API Design Rulebook*, M. Masse, wyd. O'Reilly Media.
+* „TypeScript Essentials”, Ch. Nance, wyd. Packt Publishing.
+* A. Builes. „JSON API By Example”, https://leanpub.com/json-api-by-example
+* N. Murray, F. Coury, A. Lerner, C. Taborda., "ng-book2" https://www.ng-book.com/2/
+* "API on Rails", Abraham Kuri Vargas, http://apionrails.icalialabs.com/
+* http://jsonapi-resources.com/
