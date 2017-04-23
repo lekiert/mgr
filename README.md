@@ -2,11 +2,11 @@
 
 ## Słowa kluczowe
 
-e-learning, Rails wersja 5, Angular wersja 2, JSONAPI
+e-learning, Ruby on Rails wersja 5, Angular wersja 2, JSON API, REST, TypeScript
 
 ## Streszczenie
 
-Motywacją dla powstania pracy była chęć poznania wydanej wersji frameworka Angular 2 oraz wypróbowania dedykowanych dla niego narzędzi wspomagających proces tworzenia aplikacji. W ramach projektu stworzono e-learningową, składającą się z dwóch części: klienta opartego na frameworku Angular 2 oraz serwera wykonanego przy użyciu Ruby on Rails 5. Jako bazy danych użyto PostgreSQL.
+W ramach projektu stworzono aplikację e-learningową, składającą się z dwóch części: klienta opartego na frameworku Angular 2 oraz serwera wykonanego przy użyciu Ruby on Rails 5. Jako bazy danych użyto PostgreSQL.
 
 Projekt został stworzony z myślą o tym, aby służyć jako narzędzie dla szkół językowych i innych podmiotów zainteresowanych wykorzystywaniem aplikacji WWW w procesie nauczania. Każda taka jednostka będzie miała możliwość uruchomienia własnej instancji oraz wypełnienia jej treścią. Przygotowano kilka szablonów ćwiczeń, które są grupowane w zestawy testowe. Użytkownicy (uczniowie) mają przypisane do swoich kont kursy składające się takich zestawów. Wyniki rozwiązanych testów są zapamiętywane, dzięki czemu istnieje możliwość śledzenia postępów w nauce.
 
@@ -18,10 +18,17 @@ W szczegółach implementacyjnych przedstawiono architekturę i wykorzystane tec
 ## Spis treści
 
 1. Wstęp
+    1. Cel pracy
+    1. Struktura pracy
 1. Projekt aplikacji i analiza potrzeb
+   1. Użyte terminy
    1. Wymagania aplikacji
    1. Użytkownicy
-   1. Model danych
+      1. Uczeń
+      1. Nauczyciel
+      1. Kierownik
+      1. Administrator
+   1. Struktura bazy danych
 1. Szczegóły implementacji
    1. API
       1. Architektura
@@ -31,7 +38,7 @@ W szczegółach implementacyjnych przedstawiono architekturę i wykorzystane tec
       1. Architektura
       1. Użyte biblioteki i narzędzia frameworka Angular 2
       1. Diagramy klas
-1. Testy automatyczne
+1. Testy
    1. Scenariusze
       1. Testy jednostkowe
       1. Testy funkcjonalne
@@ -41,9 +48,11 @@ W szczegółach implementacyjnych przedstawiono architekturę i wykorzystane tec
 
 ## Bibliografia i linki
 
-* *REST API Design Rulebook*, M. Masse, wyd. O'Reilly Media.
-* „TypeScript Essentials”, Ch. Nance, wyd. Packt Publishing.
+* M. Masse, „REST API Design Rulebook”, wyd. O'Reilly Media.
+* Ch. Nance, „TypeScript Essentials”, wyd. Packt Publishing.
 * A. Builes. „JSON API By Example”, https://leanpub.com/json-api-by-example
-* N. Murray, F. Coury, A. Lerner, C. Taborda., "ng-book2" https://www.ng-book.com/2/
-* "API on Rails", Abraham Kuri Vargas, http://apionrails.icalialabs.com/
+* N. Murray, F. Coury, A. Lerner, C. Taborda, „ng-book2”, https://www.ng-book.com/2/
+* Abraham Kuri Vargas, „API on Rails”, http://apionrails.icalialabs.com/
 * http://jsonapi-resources.com/
+* http://www.ls.uw.edu.pl/documents/7276721/13367523/6+Lingwistyka+Stosowana+14+Monika+Kusiak-Pisowacka.pdf
+* https://angular.io/docs/ts/latest/guide/browser-support.html
